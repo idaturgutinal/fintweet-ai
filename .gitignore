@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.bak
+*.bak2
+*.bak3
+*.bak_final
+fintweet.db
+fintweet.db-journal
+findings/
+alerts.log
+/tmp/
+*.log

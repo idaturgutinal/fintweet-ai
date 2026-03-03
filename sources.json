@@ -1,0 +1,703 @@
+{
+  "version": "2.0",
+  "updated": "2026-03-02",
+  "scan_defaults": {
+    "brave_search_max_results": 5,
+    "twitter_max_results": 10,
+    "language": "tr",
+    "summary_language": "tr"
+  },
+  "twitter_sources": {
+    "breaking_news": {
+      "label": "Son Dakika Haberleri",
+      "priority": "high",
+      "scan_interval_hours": 2,
+      "max_tweets_per_scan": 3,
+      "accounts": [
+        "@BitcoinMagazine",
+        "@CoinDesk",
+        "@Cointelegraph",
+        "@WatcherGuru",
+        "@whale_alert",
+        "@DocumentingBTC",
+        "@Bitcoin",
+        "@tier10k",
+        "@unusual_whales",
+        "@db_nws",
+        "@MartyPartyMusic",
+        "@BitcoinNewsCom",
+        "@WuBlockchain",
+        "@DeItaone",
+        "@FXHedge",
+        "@ZackVoell",
+        "@CryptoBreaking",
+        "@BTCNewsAlerts",
+        "@TheCryptoLark",
+        "@CoinGecko"
+      ]
+    },
+    "whale_alerts": {
+      "label": "Whale & On-chain",
+      "priority": "high",
+      "scan_interval_hours": 1,
+      "max_tweets_per_scan": 5,
+      "accounts": [
+        "@whale_alert",
+        "@lookonchain",
+        "@EmberCN",
+        "@spotonchain",
+        "@OnchainDataNerd",
+        "@ai_9684xtpa",
+        "@zachxbt",
+        "@ArkhamIntel",
+        "@etherscan",
+        "@BscScan",
+        "@SolanaScopus",
+        "@DegenSpartan",
+        "@CryptoRank_io"
+      ]
+    },
+    "macro_economy": {
+      "label": "Makro Ekonomi",
+      "priority": "medium",
+      "scan_interval_hours": 4,
+      "max_tweets_per_scan": 3,
+      "accounts": [
+        "@NickTimiraos",
+        "@NorthmanTrader",
+        "@elerianm",
+        "@RealVision",
+        "@MacroScope17",
+        "@MacroAlf",
+        "@lisaabramowicz1",
+        "@jimbianco",
+        "@LynAldenContact",
+        "@WallStreetSilv",
+        "@DiMartinoBooth",
+        "@Schuldensuehner",
+        "@TashaEunhye",
+        "@marketplunger",
+        "@SoberLook",
+        "@AdamTooze",
+        "@jasonfurman",
+        "@NicTrades"
+      ]
+    },
+    "crypto_analysis": {
+      "label": "Kripto Analiz",
+      "priority": "medium",
+      "scan_interval_hours": 6,
+      "max_tweets_per_scan": 3,
+      "accounts": [
+        "@CryptoQuant",
+        "@glassnode",
+        "@intocryptoverse",
+        "@rekt_capital",
+        "@MustStopMurad",
+        "@CryptoQuant_com",
+        "@MessariCrypto",
+        "@DelpbiDigital",
+        "@TheBlock__",
+        "@nansen_ai",
+        "@CryptoCred",
+        "@ColdBloodShill",
+        "@CryptoCapo_",
+        "@trader1sz",
+        "@CoinMetrics",
+        "@DuneAnalytics",
+        "@DefiLlama",
+        "@TokenTerminal",
+        "@IntoTheBlock",
+        "@TheDeFiEdge"
+      ]
+    },
+    "turkey_crypto": {
+      "label": "Türkiye Kripto",
+      "priority": "medium",
+      "scan_interval_hours": 4,
+      "max_tweets_per_scan": 3,
+      "accounts": [
+        "@koinistanbul",
+        "@BtcTurk",
+        "@paribu",
+        "@100xAltcoin",
+        "@intikifinans",
+        "@KriptoKral",
+        "@coinotag",
+        "@KoinBulteni",
+        "@Kripto_Koin",
+        "@BitloBorsasi",
+        "@KriptoParaHaber",
+        "@webitcoin",
+        "@kripto_fomo",
+        "@CoinKolik",
+        "@KriptoSozluk"
+      ]
+    },
+    "influential": {
+      "label": "Etkili Isimler",
+      "priority": "low",
+      "scan_interval_hours": 8,
+      "max_tweets_per_scan": 2,
+      "accounts": [
+        "@elonmusk",
+        "@saylor",
+        "@APompliano",
+        "@VitalikButerin",
+        "@CZ_Binance",
+        "@RaoulGMI",
+        "@balajis",
+        "@woonomic",
+        "@adambacko",
+        "@aantonop",
+        "@naval",
+        "@cdixon",
+        "@BrianArmstrong",
+        "@HaydenAdams",
+        "@justinsuntron"
+      ]
+    },
+    "etf_tracking": {
+      "label": "ETF Takibi",
+      "priority": "high",
+      "scan_interval_hours": 4,
+      "max_tweets_per_scan": 3,
+      "accounts": [
+        "@EricBalchunas",
+        "@JSeyff",
+        "@BitwiseInvest",
+        "@BitMEXResearch",
+        "@FarsideUK",
+        "@SoSoValue",
+        "@NateGeraci",
+        "@matt_hougan",
+        "@ETF_Institute",
+        "@VettaFi"
+      ]
+    },
+    "tech_news": {
+      "label": "Teknoloji Haberleri",
+      "priority": "low",
+      "scan_interval_hours": 8,
+      "max_tweets_per_scan": 3,
+      "accounts": [
+        "@TechCrunch",
+        "@TheVerge",
+        "@WIRED",
+        "@arstechnica",
+        "@ZDNet",
+        "@TechRadar",
+        "@theinformation",
+        "@BenedictEvans",
+        "@CNBC",
+        "@mashable",
+        "@engadget",
+        "@TheNextWeb"
+      ]
+    },
+    "ai_developments": {
+      "label": "Yapay Zeka / AI",
+      "priority": "medium",
+      "scan_interval_hours": 6,
+      "max_tweets_per_scan": 3,
+      "accounts": [
+        "@OpenAI",
+        "@GoogleDeepMind",
+        "@AnthropicAI",
+        "@DeepLearningAI_",
+        "@ylecun",
+        "@xAI",
+        "@MistralAI",
+        "@StabilityAI",
+        "@HuggingFace",
+        "@NVIDIAAIEnterprise",
+        "@demishassabis",
+        "@sama",
+        "@karpathy",
+        "@ESYudkowsky",
+        "@JeffDean",
+        "@MetaAI",
+        "@CohereAI",
+        "@AIatMeta",
+        "@PerplexityAI",
+        "@runwayml",
+        "@midjourney",
+        "@scale_AI"
+      ]
+    },
+    "geopolitics": {
+      "label": "Jeopolitik Gelismeler",
+      "priority": "medium",
+      "scan_interval_hours": 6,
+      "max_tweets_per_scan": 3,
+      "accounts": [
+        "@Reuters",
+        "@AP",
+        "@AFP",
+        "@BBCBreaking",
+        "@CNNBreaking",
+        "@FT",
+        "@TheEconomist",
+        "@ForeignAffairs",
+        "@CFR_org",
+        "@ReutersWorld",
+        "@WSJ",
+        "@nytimes",
+        "@guardian",
+        "@AJEnglish",
+        "@AlsharqNews",
+        "@DerSPIEGEL",
+        "@ABC",
+        "@SkyNews"
+      ]
+    },
+    "turkey_economy": {
+      "label": "Turkiye Ekonomi",
+      "priority": "medium",
+      "scan_interval_hours": 4,
+      "max_tweets_per_scan": 3,
+      "accounts": [
+        "@tcmb_bk",
+        "@BloombergHT",
+        "@ekonomim",
+        "@SedaKarakoc",
+        "@EkoTurk",
+        "@paraanaliz",
+        "@bigpara",
+        "@Foreks_com",
+        "@DunyaGazetesi",
+        "@ekonomikiletism",
+        "@TCMBbaskani",
+        "@SPKkurulu",
+        "@Haberler",
+        "@TuikRaporlari",
+        "@HMBakanligi",
+        "@BDDKkurulu",
+        "@TradeAll_TR",
+        "@Ticaret_Bakan"
+      ]
+    },
+    "world_leaders_policy": {
+      "label": "Dunya Liderleri ve Politika",
+      "priority": "low",
+      "scan_interval_hours": 8,
+      "max_tweets_per_scan": 2,
+      "accounts": [
+        "@POTUS",
+        "@SecYellen",
+        "@SECGov",
+        "@USFederalReserve",
+        "@GaryGensler",
+        "@ECB",
+        "@FinancialTimes",
+        "@IMFNews",
+        "@WorldBank",
+        "@UN",
+        "@WTO",
+        "@OECD",
+        "@g20org",
+        "@BIS_org"
+      ]
+    },
+    "energy_commodities": {
+      "label": "Enerji ve Emtia",
+      "priority": "low",
+      "scan_interval_hours": 8,
+      "max_tweets_per_scan": 2,
+      "accounts": [
+        "@OilBulletPoints",
+        "@EIAgov",
+        "@IEA",
+        "@GoldTelegraph_",
+        "@JKempEnergy",
+        "@JavierBlas",
+        "@OPEC",
+        "@BloombergNRG",
+        "@PeterSchiff",
+        "@GoldSilverPros",
+        "@Ole_S_Hansen",
+        "@SaudiAramco"
+      ]
+    },
+    "science_space": {
+      "label": "Bilim ve Uzay",
+      "priority": "low",
+      "scan_interval_hours": 12,
+      "max_tweets_per_scan": 2,
+      "accounts": [
+        "@NASA",
+        "@SpaceX",
+        "@elonmusk",
+        "@NatGeo",
+        "@ScienceNews",
+        "@Nature",
+        "@NewScientist",
+        "@physorg_com",
+        "@esa",
+        "@CERN",
+        "@MIT",
+        "@Stanford",
+        "@SciAm"
+      ]
+    },
+    "startup_vc": {
+      "label": "Startup ve Girisim",
+      "priority": "low",
+      "scan_interval_hours": 12,
+      "max_tweets_per_scan": 2,
+      "accounts": [
+        "@a16z",
+        "@ycombinator",
+        "@sequoia",
+        "@cbinsights",
+        "@PitchBook",
+        "@crunchbase",
+        "@ProductHunt",
+        "@venturehacks",
+        "@TechstarsHQ",
+        "@500Global",
+        "@Techstars",
+        "@firstround"
+      ]
+    },
+    "defi_altcoins": {
+      "label": "DeFi & Altcoin Ekosistemi",
+      "accounts": [
+        "@DefiLlama",
+        "@DeFi_Dad",
+        "@DegenSpartan",
+        "@Pentosh1",
+        "@AltcoinDailyio",
+        "@AltcoinBuzz",
+        "@Ashcryptoreal",
+        "@blknoiz06",
+        "@crypto_birb",
+        "@TheMoonCarl",
+        "@elliotrades",
+        "@inversebrah",
+        "@larkdavis"
+      ],
+      "scan_interval_hours": 4
+    },
+    "regulation_legal": {
+      "label": "Regülasyon ve Hukuk",
+      "accounts": [
+        "@SECGov",
+        "@CFTC",
+        "@CFPBDirector",
+        "@OCC_gov",
+        "@FSB_chair",
+        "@SEC_Enforcement",
+        "@HesterPeirce",
+        "@RepRitchie",
+        "@SenLummis",
+        "@PatrickMcHenry"
+      ],
+      "scan_interval_hours": 6
+    }
+  },
+  "web_sources": {
+    "news_sites": {
+      "label": "Haber Siteleri",
+      "priority": "high",
+      "scan_interval_minutes": 180,
+      "queries": [
+        "bitcoin crypto breaking news last 12 hours",
+        "ethereum DeFi protocol update",
+        "crypto market news today"
+      ]
+    },
+    "data_platforms": {
+      "label": "Veri Platformlari",
+      "priority": "high",
+      "scan_interval_minutes": 180,
+      "queries": [
+        "bitcoin price technical analysis support resistance",
+        "altcoin gainers losers market cap today",
+        "defi tvl protocol ranking changes",
+        "DeFi TVL protocol rankings"
+      ]
+    },
+    "onchain": {
+      "label": "On-chain Veri",
+      "priority": "critical",
+      "scan_interval_minutes": 180,
+      "queries": [
+        "whale alert BTC ETH large transfer million",
+        "bitcoin exchange netflow outflow coinbase binance",
+        "bitcoin whale accumulation on-chain"
+      ]
+    },
+    "macro_data": {
+      "label": "Makro Ekonomik Veri",
+      "priority": "high",
+      "scan_interval_minutes": 360,
+      "queries": [
+        "fed interest rate decision powell speech",
+        "us CPI inflation data release",
+        "treasury yields DXY dollar index today",
+        "inflation CPI data latest"
+      ]
+    },
+    "turkey_finance": {
+      "label": "Turkiye Finans",
+      "priority": "high",
+      "scan_interval_minutes": 360,
+      "queries": [
+        "TCMB faiz kararı son dakika",
+        "türkiye enflasyon TÜFE verileri",
+        "BIST 100 borsa istanbul günlük analiz",
+        "dolar TL kur piyasa",
+        "TCMB faiz karari"
+      ]
+    },
+    "social_signals": {
+      "label": "Sosyal Sinyaller",
+      "priority": "medium",
+      "scan_interval_minutes": 360,
+      "queries": [
+        "crypto twitter trending topic viral",
+        "bitcoin sentiment fear greed index today"
+      ]
+    },
+    "regulation_web": {
+      "label": "Regulasyon Web",
+      "priority": "critical",
+      "scan_interval_minutes": 180,
+      "queries": [
+        "SEC cryptocurrency ETF ruling approval",
+        "EU MiCA regulation implementation update",
+        "SPK kripto varlık düzenleme Türkiye",
+        "SEC crypto enforcement action"
+      ]
+    },
+    "etf_flows": {
+      "label": "ETF Akislari",
+      "priority": "high",
+      "scan_interval_minutes": 360,
+      "queries": [
+        "bitcoin spot ETF inflow outflow daily",
+        "blackrock fidelity bitcoin ETF holdings",
+        "bitcoin ETF inflow outflow daily"
+      ]
+    },
+    "ai_crypto": {
+      "label": "AI & Kripto Kesisimi",
+      "priority": "medium",
+      "scan_interval_minutes": 360,
+      "queries": [
+        "AI cryptocurrency token market",
+        "artificial intelligence blockchain project",
+        "nvidia crypto mining AI compute",
+        "AI token crypto project launch"
+      ]
+    },
+    "stablecoin_flows": {
+      "label": "Stablecoin Akislari",
+      "priority": "high",
+      "scan_interval_minutes": 360,
+      "queries": [
+        "USDT tether market cap mint burn",
+        "USDC circle reserve attestation",
+        "stablecoin total supply change",
+        "USDC USDT market cap changes"
+      ]
+    },
+    "tech_news": {
+      "label": "Teknoloji Haberleri Web",
+      "priority": "low",
+      "scan_interval_minutes": 1440,
+      "queries": [
+        "tech IPO big tech earnings quarterly",
+        "Apple Google Microsoft Amazon Meta news"
+      ]
+    },
+    "ai_developments": {
+      "label": "Yapay Zeka Web",
+      "priority": "medium",
+      "scan_interval_minutes": 720,
+      "queries": [
+        "AI model launch LLM benchmark",
+        "GPT Claude Gemini new release",
+        "AI regulation EU US policy"
+      ]
+    },
+    "geopolitics_web": {
+      "label": "Jeopolitik Web",
+      "priority": "medium",
+      "scan_interval_minutes": 720,
+      "queries": [
+        "trade war tariff sanctions",
+        "NATO EU summit geopolitics",
+        "Middle East conflict Iran Israel"
+      ]
+    },
+    "turkey_news_web": {
+      "label": "Turkiye Haber Web",
+      "priority": "medium",
+      "scan_interval_minutes": 720,
+      "queries": [
+        "TCMB faiz kararı merkez bankası",
+        "BIST100 borsa istanbul analiz"
+      ]
+    },
+    "energy_commodities_web": {
+      "label": "Enerji Emtia Web",
+      "priority": "low",
+      "scan_interval_minutes": 1440,
+      "queries": [
+        "oil price OPEC production cut",
+        "gold price rally crash analysis",
+        "natural gas energy market"
+      ]
+    },
+    "science_space_web": {
+      "label": "Bilim Uzay Web",
+      "priority": "low",
+      "scan_interval_minutes": 1440,
+      "queries": [
+        "space launch rocket SpaceX Starship",
+        "scientific breakthrough discovery"
+      ]
+    },
+    "startup_vc_web": {
+      "label": "Startup Girisim Web",
+      "priority": "low",
+      "scan_interval_minutes": 1440,
+      "queries": [
+        "startup funding round unicorn",
+        "IPO filing valuation tech"
+      ]
+    },
+    "defi_web": {
+      "label": "DeFi Ekosistemi",
+      "queries": [
+        "DeFi protocol hack exploit",
+        "DeFi yield farming new",
+        "DEX volume record"
+      ],
+      "scan_interval_minutes": 360
+    },
+    "nft_gaming_web": {
+      "label": "NFT & Web3 Gaming",
+      "queries": [
+        "NFT marketplace volume",
+        "web3 gaming crypto launch"
+      ],
+      "scan_interval_minutes": 1440
+    },
+    "regulation_global_web": {
+      "label": "Global Regulasyon",
+      "queries": [
+        "EU MiCA crypto regulation",
+        "crypto regulation Asia",
+        "CBDC central bank digital currency"
+      ],
+      "scan_interval_minutes": 720
+    }
+  },
+  "alert_triggers": {
+    "price_alert": {
+      "label": "Fiyat Alarmi",
+      "description": "BTC veya ETH %5+ degisim (1 saat icinde)",
+      "priority": "high",
+      "check_interval_seconds": 60
+    },
+    "whale_movement": {
+      "label": "Whale Hareketi",
+      "description": ">1000 BTC veya >10000 ETH transfer",
+      "priority": "high",
+      "check_interval_seconds": 120
+    },
+    "regulatory_action": {
+      "label": "Regulasyon Aksiyonu",
+      "description": "SEC, Fed, TCMB acil karar veya aciklama",
+      "priority": "critical",
+      "check_interval_seconds": 300
+    },
+    "security_incident": {
+      "label": "Guvenlik Olaylari",
+      "description": "Hack, exploit, buyuk kayip haberleri",
+      "priority": "critical",
+      "check_interval_seconds": 300
+    },
+    "viral_content": {
+      "label": "Viral Icerik",
+      "description": "Kripto tweeti >10K RT veya >50K like",
+      "priority": "medium",
+      "check_interval_seconds": 600
+    }
+  },
+  "content_types": {
+    "haber_yorumu": {
+      "label": "Haber Yorumu",
+      "weight": 0.25,
+      "description": "Guncel haberi alip insancil ve analitik yorum katma"
+    },
+    "bilgilendirici": {
+      "label": "Bilgilendirici",
+      "weight": 0.15,
+      "description": "Egitici icerik, kavram aciklama, strateji paylasimi"
+    },
+    "alinti": {
+      "label": "Alinti/Quote",
+      "weight": 0.1,
+      "description": "Unlu yatirimci/dusunurlerden alinti + kisisel yorum"
+    },
+    "analiz_thread": {
+      "label": "Analiz/Thread",
+      "weight": 0.15,
+      "description": "Derinlemesine piyasa analizi, thread formatinda"
+    },
+    "onchain_veri": {
+      "label": "On-chain Veri",
+      "weight": 0.15,
+      "description": "Whale hareketleri, borsa akislari, metrikler"
+    },
+    "makro_ekonomi": {
+      "label": "Makro Ekonomi",
+      "weight": 0.1,
+      "description": "Fed, enflasyon, global piyasa yorumu"
+    },
+    "mizah_kultur": {
+      "label": "Mizah/Kultur",
+      "weight": 0.1,
+      "description": "Kripto kulturune dokunan esprili, iliskisel icerik"
+    }
+  },
+  "schedule": {
+    "timezone": "Europe/Istanbul",
+    "slots": [
+      {
+        "time": "07:00",
+        "type": "sabah_brifing",
+        "description": "Gece gelismeleri ozeti"
+      },
+      {
+        "time": "09:00",
+        "type": "piyasa_acilis",
+        "description": "Asya/Avrupa piyasa ozeti"
+      },
+      {
+        "time": "12:00",
+        "type": "ogle_guncelleme",
+        "description": "Gunun ortasi bilgilendirici icerik"
+      },
+      {
+        "time": "15:00",
+        "type": "abd_piyasa",
+        "description": "US acilis + makro veri"
+      },
+      {
+        "time": "18:00",
+        "type": "aksam_analizi",
+        "description": "Gunun ozeti + ongoruler"
+      },
+      {
+        "time": "21:00",
+        "type": "gece_icerigi",
+        "description": "Egitim/alinti/kultur icerigi"
+      }
+    ]
+  }
+}
