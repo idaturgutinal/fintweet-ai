@@ -10,3 +10,4 @@ findings/
 alerts.log
 /tmp/
 *.log
+sources.json
